@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose",
-    "test-watch": "jest --verbose --watchAll"
+    "test-watch": "jest --verbose --watchAll",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@code-fellows/supergoose": "^1.0.11",
+    "express": "^4.17.1",
     "jest": "^26.6.3",
     "mongoose": "^5.12.5"
   }
